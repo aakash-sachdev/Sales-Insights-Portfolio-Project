@@ -1,0 +1,16 @@
+Implementing a Star Schema for Optimized Data Analysis in Tableau
+
+Description: In Tableau, we use an ETL (Extract, Transform, Load) process, also known as data cleaning, to prepare data for analysis. This process allows us to extract raw data, clean and transform it, and then load it into Tableau for visualization. For efficient organization and fast querying, we’ve structured our database using a star schema.
+
+Why Use a Star Schema?
+A star schema simplifies the database structure, making it easy to understand and quick to retrieve specific data. The central fact table contains core metrics, while the surrounding dimension tables provide additional context, allowing for streamlined and efficient data analysis.
+
+Case Study Overview:
+In this case, the fact table is the transactions table, and the dimension tables include markets, customers, products, and date.
+
+Steps to Establish Relationships:
+Link transactions to customers via the customer_code field.
+Link transactions to date via the order_date in transactions and the date field in the date table.
+Link transactions to markets using market_code in both the transactions and markets tables.
+Link transactions to products through the product_code field in both transactions and products.
+These steps outline the relationships established between the fact and dimension tables, creating an optimized star schema structure for our Tableau project. This setup enables faster query performance and a more efficient data analysis process.
