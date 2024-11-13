@@ -1,0 +1,75 @@
+All the queries - 
+
+-- Show all customer records 
+SELECT * FROM customers;
+
+-- Show total number of customers
+SELECT count(*) FROM customers;
+
+-- Show unique customer types 
+SELECT DISTINCT customer_type FROM customers;
+
+-- Show all market records
+SELECT * FROM markets;
+
+-- Show all unique market zone
+SELECT DISTINCT zone FROM markets;
+
+-- Show all product records 
+SELECT * FROM sales.products;
+
+-- Show all date records 
+SELECT * FROM sales.date;
+
+-- Show all transaction records
+SELECT * FROM sales.transactions;
+
+-- Show total number of tranctions 
+SELECT COUNT(*) FROM transactions;
+
+-- Show the number of currencies
+SELECT DISTINCT currency FROM transactions;
+
+-- INR is showing twice for understanding why it is we will copy the name of the row
+ # currency (right click -> copy row with name)
+-- 'INR'
+# currency
+-- 'INR\r'
+
+-- Show transactions for Chennai market (market code for chennai is Mark001)
+SELECT * FROM transactions WHERE market_code='Mark001';
+
+-- Show total sum of sales amount for Chennai market
+SELECT SUM(transactions.sales_amount) FROM transactions WHERE market_code='Mark001';
+
+-- Show distinct product codes that were sold in chennai
+SELECT distinct product_code FROM transactions where market_code='Mark001';
+
+--  Show transactions where currency is US dollars
+SELECT * FROM transactions WHERE currency = 'USD';
+
+-- Show transactions join by date table
+SELECT transactions.*, date.* FROM transactions INNER JOIN date 
+ON transactions.order_date = date.date;
+
+-- Show transactions in 2020 join by date table
+SELECT transactions.*, date.year FROM transactions INNER JOIN date 
+ON transactions.order_date = date.date WHERE year = 2020;
+
+-- Show total revenue in year 2020,
+SELECT SUM(transactions.sales_amount), date.year FROM transactions INNER JOIN date 
+ON transactions.order_date=date.date where date.year=2020;
+-- If want to check the total revenue of any year change the date.year
+
+-- Show all the transaction of January 
+SELECT transactions.*, date.* FROM transactions INNER JOIN date 
+ON transactions.order_date = date.date WHERE year = 2020 AND month_name="January";
+
+-- Show total revenue in year 2020, January Month,
+SELECT SUM(transactions.sales_amount), date.year, date.month_name FROM transactions INNER JOIN date 
+ON transactions.order_date=date.date where date.year=2020 and date.month_name="January";
+-- If want to check the total revenue of any month change the month
+
+-- Show total revenue in year 2020 in Mumbai
+SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date 
+ON transactions.order_date=date.date WHERE date.year=2020 AND transactions.market_code="Mark002";
