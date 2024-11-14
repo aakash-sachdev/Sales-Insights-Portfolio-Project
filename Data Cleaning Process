@@ -1,0 +1,31 @@
+**Data Cleaning Process**
+
+This document outlines the data cleaning steps taken to ensure data accuracy and consistency for the Sales Insights analysis in Tableau. 
+
+1. **Sales Amount Correction**  
+   - During data inspection, I found entries where the `Sales Amount` was either -1 or 0. This incorrect data, likely due to manual entry errors or system bugs, was removed.
+   - **Action Taken**: 
+     - Navigated to *Data -> Edit Data Source -> Add… -> Sales Amount* and applied a filter to exclude any values less than 1, ensuring only valid positive sales amounts are included.
+
+2. **Market Code Validation**  
+   - Upon review of the `Market` table, it was clear that the business operations are limited to India. However, certain entries had market codes (`Mark097` and `Mark999`) that corresponded to New York and Paris.
+   - **Action Taken**: 
+     - Applied a filter to exclude these incorrect market codes, ensuring that only data related to the Indian market was considered in the analysis.
+
+3. **Currency Normalization**  
+   - Some transactions were recorded in USD, while the primary currency for analysis is INR (Indian Rupee).
+   - **Action Taken**:
+     - Created a calculated field called *Normalized Amount* to standardize currency values in INR.
+     - **Field Configuration**:  
+       - **Role**: Continuous Measure  
+       - **Type**: Calculated Field  
+       - **Default Aggregation**: Sum  
+       - **Formula**:  
+         ``` 
+         IF [Currency] = 'USD' THEN [Sales Amount] * 84  
+         ELSE [Sales Amount]  
+         END  
+         ```
+     - This formula converts all USD values to INR based on an exchange rate of 1 USD = 84 INR, ensuring currency consistency across the data.
+
+These steps were implemented within Tableau’s data preparation interface to clean and standardize the data, making it ready for accurate and meaningful analysis.
