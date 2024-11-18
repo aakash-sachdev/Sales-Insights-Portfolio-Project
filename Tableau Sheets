@@ -1,1 +1,11 @@
-Creating the sheets
+I created a dashboard to analyze sales interactively, showing total revenue, quantities, and breakdowns by market and year. For example, clicking "Delhi" filters revenue to around 420M, or selecting 2018 displays around 414M revenue.
+
+Steps:
+- Create Sheets
+- Build sheets for Total Revenue, Quantity, and Revenue by Market.
+- Drag fields (e.g., Revenue) to rows/columns, format titles, and style (alignment, bold, colors). Display revenue in millions/billions.
+- Dashboard Assembly
+- Combine sheets into a dashboard.
+- Add interactivity: clicking filters data by market or year.
+
+This dashboard will help the company to analyze data efficiently, like viewing any year revenue for a specific market.
