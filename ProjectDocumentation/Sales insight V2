@@ -1,0 +1,63 @@
+Sales Growth Analysis Task
+
+To effectively increase sales growth, the Sales Director needs to analyze the following areas:
+
+Key Metrics and Reports
+
+	1.	Revenue by Zone
+	•	Analyze revenue generated from different geographical zones.
+	2.	Sales Quantity by Zone
+	•	Evaluate the number of units sold in each zone.
+	3.	Revenue Trend
+	•	Track the revenue trend over time to identify growth or decline patterns.
+	4.	Revenue by Markets (Units should be in Thousands)
+	•	Breakdown revenue by individual markets for a detailed view.
+	5.	Sales Quantity by Markets
+	•	Assess the quantity of products sold in different markets.
+	6.	Top 5 Customers by Revenue
+	•	Identify the top 5 customers contributing the highest revenue.
+	7.	Top 5 Products by Revenue
+	•	Determine the top 5 products generating the most revenue.
+	8.	Last 5 Years Revenue (Overall Sales)
+	•	Review the revenue performance over the past 5 years.
+	9.	Last 5 Years Revenue by Zone
+	•	Analyze revenue trends by zone over the past 5 years.
+	•	Focus Area: Increase sales in zones with lower revenue by:
+	•	Adding more sales employees.
+	•	Promoting/advertising products.
+
+Key Insights and Actions
+
+	10.	Low Revenue Customers
+	•	Identify customers contributing less revenue.
+	•	Actions:
+	•	Gather feedback.
+	•	Offer attractive discounts or promotional offers.
+	11.	High Revenue Customers
+	•	Identify top revenue-generating customers.
+	•	Actions:
+	•	Increase the availability of high-value products for these customers.
+	12.	Low Sales Markets
+	•	Identify markets with significantly low sales.
+	•	Actions:
+	•	Consider stopping sales in these areas to save transport and employee costs.
+	•	Reinvest the saved amount in high-performing areas.
+	13.	Returned Products
+	•	Display the quantity of returned products by:
+	•	Zone
+	•	Customer
+	14.	High Revenue Products
+	•	Identify products that generate the most revenue, categorized by:
+	•	Zone
+	•	Market
+	•	Customer
+	15.	Monthly Sales Trends
+	•	Identify months with increasing sales growth by comparing previous years.
+	•	Actions:
+	•	Ensure sufficient product availability and distribution for high-sales months.
+
+Objective
+
+The primary objective is to identify trends and focus areas to strategically improve sales growth and optimize resources.
+
+Feel free to modify this according to your project structure or add additional details!
