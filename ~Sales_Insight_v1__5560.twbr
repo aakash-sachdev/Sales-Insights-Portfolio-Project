@@ -823,9 +823,9 @@
             <column-instance column='[cy_date]' derivation='Year' name='[yr:cy_date:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,MONTH(Cy Date))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[Calculation_391250233046302724]' member='&quot; &quot;' />
-              <groupfilter function='member' level='[mn:cy_date:ok]' member='11' />
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_391250233046302724]' />
+              <groupfilter function='level-members' level='[mn:cy_date:ok]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,YEAR(Cy Date))]'>
@@ -904,9 +904,9 @@
             <column-instance column='[cy_date]' derivation='Year' name='[yr:cy_date:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,MONTH(Cy Date))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[Calculation_391250233046302724]' member='&quot; &quot;' />
-              <groupfilter function='member' level='[mn:cy_date:ok]' member='11' />
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_391250233046302724]' />
+              <groupfilter function='level-members' level='[mn:cy_date:ok]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,YEAR(Cy Date))]'>
@@ -994,9 +994,9 @@
             <column-instance column='[cy_date]' derivation='Year' name='[yr:cy_date:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,MONTH(Cy Date))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[Calculation_391250233046302724]' member='&quot; &quot;' />
-              <groupfilter function='member' level='[mn:cy_date:ok]' member='11' />
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_391250233046302724]' />
+              <groupfilter function='level-members' level='[mn:cy_date:ok]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,YEAR(Cy Date))]'>
@@ -1109,9 +1109,9 @@
             <column-instance column='[cy_date]' derivation='Year' name='[yr:cy_date:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,MONTH(Cy Date))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[Calculation_391250233046302724]' member='&quot; &quot;' />
-              <groupfilter function='member' level='[mn:cy_date:ok]' member='11' />
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_391250233046302724]' />
+              <groupfilter function='level-members' level='[mn:cy_date:ok]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,YEAR(Cy Date))]'>
@@ -1230,9 +1230,9 @@
             <column-instance column='[cy_date]' derivation='Year' name='[yr:cy_date:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,MONTH(Cy Date))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[Calculation_391250233046302724]' member='&quot; &quot;' />
-              <groupfilter function='member' level='[mn:cy_date:ok]' member='11' />
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_391250233046302724]' />
+              <groupfilter function='level-members' level='[mn:cy_date:ok]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,YEAR(Cy Date))]'>
@@ -1345,9 +1345,9 @@
             <column-instance column='[cy_date]' derivation='Year' name='[yr:cy_date:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,MONTH(Cy Date))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[Calculation_391250233046302724]' member='&quot; &quot;' />
-              <groupfilter function='member' level='[mn:cy_date:ok]' member='11' />
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_391250233046302724]' />
+              <groupfilter function='level-members' level='[mn:cy_date:ok]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,YEAR(Cy Date))]'>
@@ -1503,9 +1503,9 @@
             <column-instance column='[cy_date]' derivation='Year' name='[yr:cy_date:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,MONTH(Cy Date))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[Calculation_391250233046302724]' member='&quot; &quot;' />
-              <groupfilter function='member' level='[mn:cy_date:ok]' member='11' />
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_391250233046302724]' />
+              <groupfilter function='level-members' level='[mn:cy_date:ok]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,YEAR(Cy Date))]'>
@@ -1617,9 +1617,9 @@
             <column-instance column='[cy_date]' derivation='Year' name='[yr:cy_date:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Blank,MONTH(Cy Date))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[Calculation_391250233046302724]' member='&quot; &quot;' />
-              <groupfilter function='member' level='[mn:cy_date:ok]' member='11' />
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_78B42B1F548F4AD68717347C64847452]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_391250233046302724]' />
+              <groupfilter function='level-members' level='[mn:cy_date:ok]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[Action (Markets Name)]'>
@@ -1793,17 +1793,17 @@
     <window class='worksheet' name='Revenue'>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
         </edge>
@@ -1813,17 +1813,17 @@
     <window class='worksheet' name='Quantity'>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
         </edge>
@@ -1833,17 +1833,17 @@
     <window class='worksheet' name='Revenue By Market'>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
         </edge>
@@ -1853,20 +1853,20 @@
     <window class='worksheet' name='Sales Quantity By Markets'>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='title' />
           </strip>
         </edge>
@@ -1876,20 +1876,20 @@
     <window class='worksheet' name='Top 5 Customers'>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='title' />
           </strip>
         </edge>
@@ -1899,20 +1899,20 @@
     <window class='worksheet' name='Top 5 Products'>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='title' />
           </strip>
         </edge>
@@ -1922,7 +1922,7 @@
     <window class='worksheet' name='Year'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='128'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
@@ -1942,7 +1942,7 @@
     <window class='worksheet' name='Month'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='128'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
@@ -1962,7 +1962,7 @@
     <window class='worksheet' name='Revenue By Year'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='128'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
@@ -1975,12 +1975,12 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='31'>
+          <strip size='24'>
             <card type='title' />
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='160'>
+          <strip size='128'>
             <card pane-specification-id='1' param='[federated.0fdn5en0wc5wqd13797ps1e0tvqm].[sum:Calculation_391250231936946176:qk]' type='color' />
           </strip>
         </edge>
@@ -2001,7 +2001,7 @@
         <viewpoint name='Top 5 Products' />
         <viewpoint name='Year' />
       </viewpoints>
-      <active id='4' />
+      <active id='-1' />
       <simple-id uuid='{35E05358-906B-4EB7-B5FA-42E9D72F7073}' />
     </window>
   </windows>
